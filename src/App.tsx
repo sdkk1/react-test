@@ -1,7 +1,9 @@
 import logo from './logo.svg'
 import { Counter } from './features/counter/Counter'
 import './App.css'
+import { frameworks } from './constants'
 import RenderInput from './RenderInput'
+import FrameworkList from './FrameworkList'
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
         <img src={logo} className='App-logo' alt='logo' />
         <Counter />
         <RenderInput outputConsole={console.log} />
+        <FrameworkList frameworks={frameworks} />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
