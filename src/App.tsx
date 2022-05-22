@@ -4,6 +4,7 @@ import './App.css'
 import { frameworks } from './constants'
 import RenderInput from './RenderInput'
 import FrameworkList from './FrameworkList'
+import MockServer from './MockServer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Counter />
         <RenderInput outputConsole={console.log} />
         <FrameworkList frameworks={frameworks} />
+        <MockServer />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
