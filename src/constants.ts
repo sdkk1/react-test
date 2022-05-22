@@ -12,3 +12,5 @@ export const frameworks = [
     name: 'Vue',
   },
 ]
+
+export const urlUser = 'https://jsonplaceholder.typicode.com/users/1'
